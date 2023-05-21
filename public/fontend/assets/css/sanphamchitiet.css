@@ -1,0 +1,908 @@
+
+/* Sản Phẩm Chi Tiết Css */
+
+.menumin {
+    width: 100%;
+  }
+  .menumin-box {
+    width: 1188px;
+    margin: auto auto auto auto;
+  }
+  .menumin-box-ul {
+    display: flex;
+  }
+  .menumin-box-li {
+    list-style-type: none;
+    padding: 5px;
+    color: #4a5568;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+  }
+  .MeliaDanangBeachResort {
+  }
+  .MeliaDanangBeachResort_Box {
+    width: 1188px;
+    margin: auto;
+  }
+  .MeliaDanangBeachResort-Title {
+    color: #1a202c;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin: 0px 0px 6px;
+  }
+  .MeliaDanangBeachResort-Star-Type-Box {
+    display: flex;
+  }
+  .MeliaDanangBeachResort-Star {
+    font-size: 12px;
+    line-height: 17px;
+    color: #ffbc39;
+  }
+  .MeliaDanangBeachResort-Type {
+    border-color: #ff3366;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: #ff3366;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 8px;
+    margin-top: -1px;
+    padding: 2px 4px;
+  }
+  .MeliaDanangBeachResort-evaluate-Box {
+    margin-top: 10px;
+    display: flex;
+  }
+  .MeliaDanangBeachResort-evaluate-Box-One {
+    background-color: #ffeaef;
+    border-radius: 4px;
+    color: #ff3366;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    padding: 1px 2px 0px 0px;
+  }
+  .MeliaDanangBeachResort-evaluate-Box-Two {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 5px;
+  }
+  .MeliaDanangBeachResort-evaluate-Box-Three {
+    color: #00b6f3;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .MeliaDanangBeachResort-place-Box {
+    margin-top: 13px;
+  }
+  .MeliaDanangBeachResort-img-Box {
+    display: grid;
+    grid-template-areas:
+      "h1 h1 h2 h3"
+      "h1 h1 h4 h5";
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+  .MeliaDanangBeachResort-img:nth-child(1) {
+    grid-area: h1;
+  }
+  .MeliaDanangBeachResort-img:nth-child(2) {
+    grid-area: h2;
+    width: 284px;
+    height: 160px;
+  }
+  .MeliaDanangBeachResort-img:nth-child(3) {
+    grid-area: h3;
+    width: 284px;
+    height: 160px;
+  }
+  .MeliaDanangBeachResort-img:nth-child(4) {
+    grid-area: h4;
+    width: 284px;
+    height: 160px;
+    margin-top: -2px;
+  }
+  .MeliaDanangBeachResort-img:nth-child(5) {
+    grid-area: h5;
+    width: 284px;
+    height: 160px;
+    margin-top: -2px;
+    background-image: url(/assets/img/thongtinkhachsan/5.jpg);
+    background-size: 100%;
+    opacity: 0.7;
+  }
+  .MeliaDanangBeachResort-img-Fixbug {
+    margin-top: 16px;
+  }
+  .MeliaDanangBeachResort-img-text {
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 65px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate-Box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left {
+    width: 380px;
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxleft {
+    display: flex;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxleft-content {
+    margin-top: 9px;
+    width: 99px;
+    height: 99px;
+    border-radius: 100%;
+    border: 8px solid;
+    border-color: #ff3366;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxleft-content-text {
+    margin-top: 16px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxleft-content-text-10 {
+    color: #ff3366;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxleft-content-text-Good {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxright {
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxright-box {
+    display: flex;
+    margin-top: 8px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxright-box-one {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    min-width: 80px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxright-box-two {
+    width: 128px;
+    height: 6px;
+    background-color: #718096;
+    border-radius: 100px;
+    color: #1a202c;
+    margin-top: 5px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Left-boxright-box-three {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 10px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Center {
+    width: 380px;
+    height: 145px;
+    background-color: #f7fafc;
+    border-radius: 8px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Center-Title {
+    font-weight: 600;
+    line-height: 19px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Center-Text {
+    color: #1a202c;
+    display: -webkit-box;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    margin-left: 16px;
+    margin-top: 6px;
+    margin-right: 16px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Right {
+    width: 380px;
+    height: 145px;
+    background-image: url(/assets/img/thongtinkhachsan/icon_background.png);
+    background-size: 100%;
+    color: #1a202c;
+    line-height: 22px;
+  }
+  .MeliaDanangBeachResort-Bigevaluate_Right-box {
+    margin-left: 160px;
+    margin-top: 28px;
+  }
+  
+  .MeliaDanangBeachResort-Map-Service {
+    display: flex;
+    justify-content: space-between;
+  }
+  .MeliaDanangBeachResort-Map {
+    width: 784px;
+    height: 250px;
+  }
+  .MeliaDanangBeachResort-Map-title {
+    margin-top: 5px;
+    color: #1a202c;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .MeliaDanangBeachResort-Map-Border {
+    margin-top: 10px;
+    border: 1px solid;
+    border-color: #edf2f7;
+    border-radius: 8px;
+  }
+  .MeliaDanangBeachResort-Map-imgMap {
+  }
+  .MeliaDanangBeachResort-Map-place {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-bottom: 10px;
+  }
+  .MeliaDanangBeachResort-Map-place-l {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 10px;
+  }
+  .MeliaDanangBeachResort-Map-place-r {
+    color: #ff3366;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  .MeliaDanangBeachResort-Service {
+    width: 380px;
+    height: 228px;
+  }
+  .MeliaDanangBeachResort-Service-title {
+    margin-top: 6px;
+    color: #1a202c;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .MeliaDanangBeachResort-Service_img {
+    margin-top: 12px;
+  }
+  .ShowImgHotel {
+    position: fixed;
+    z-index: 99999;
+    width: 1100px;
+    height: 628px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  .ShowImgHotel-Box {
+    width: 1100px;
+    height: 628px;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+  .Input-ShowImgHotel-Select:checked ~ .ShowImgHotel {
+    display: block;
+  }
+  .Input-ShowImgHotel-Select:checked ~ .showimg-overlay {
+    display: block;
+  }
+  
+  .chooserooms {
+    width: 100%;
+    height: auto;
+    background: #f7fafc;
+    padding-bottom: 13px;
+  }
+  .chooseroomsbox {
+    width: 1188px;
+    margin: auto;
+  }
+  .chooseroomsbox-Title {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+  }
+  .chooseroomsbox-boxcontent {
+    border-radius: 8px;
+    border: 1px solid #20bff4;
+    min-height: 100px;
+  }
+  .chooseroomsbox-boxcontent-top {
+    color: #ffffff;
+    height: 32px;
+    margin: -1px -1px 0;
+    display: flex;
+    padding: 8px 12px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #00b6f3 0%, #007ff3 100%);
+    align-items: center;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .cart-content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 21px;
+  }
+  .cart-content-left {
+    width: 100%;
+    height: auto;
+  }
+  .cart-content-right {
+    width: 25%;
+  }
+  .hotline_box {
+    height: 112px;
+    background-color: #fafafa;
+  }
+  .hotline_box_bottom {
+    margin-top: 12px;
+    padding-top: 12px;
+    height: auto;
+    background-color: #fafafa;
+    padding-bottom: 12px;
+  }
+  
+  .hotline_text {
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    line-height: 21px;
+    border-bottom: 1px solid;
+    border-color: #cbd5e0;
+  }
+  .hotline_bottom {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+  
+  .hotline_text_box {
+    margin-left: 5px;
+  }
+  .hotline_text_phone {
+    color: #ff7200;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+  }
+  .hotline_text_text {
+    color: #333333;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+  }
+  .hotline_text_phone_vip {
+    margin-top: 4px;
+    margin-left: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 15.4px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .hotline_text_text_vip {
+    color: #999999;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: left;
+    margin-left: 2px;
+  }
+  .hotline_bottom_vip {
+    margin-left: 12px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 12px;
+  }
+  .img-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .store_text_title {
+    margin-top: 6px;
+    color: #333333;
+    font-size: 13px;
+    line-height: 19.5px;
+    padding: 0px 5px;
+    text-align: center;
+  }
+  .store_text {
+    color: #333333;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  /* CHữ nhấp nháy */
+  @-webkit-keyframes my {
+    0% {
+      color: #f8cd0a;
+    }
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: #f8cd0a;
+    }
+  }
+  @-moz-keyframes my {
+    0% {
+      color: #f8cd0a;
+    }
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: #f8cd0a;
+    }
+  }
+  @-o-keyframes my {
+    0% {
+      color: #f8cd0a;
+    }
+    50% {
+      color: rgb(252, 0, 0);
+    }
+    100% {
+      color: #ec3b00;
+    }
+  }
+  @keyframes my {
+    0% {
+      color: #ff0149;
+    }
+    50% {
+      color: rgb(8, 255, 70);
+    }
+    100% {
+      color: #f8cd0a;
+    }
+  }
+  #price-nguyen {
+    font-size: 20px;
+    -webkit-animation: my 7000ms infinite;
+    -moz-animation: my 7000ms infinite;
+    -o-animation: my 7000ms infinite;
+    animation: my 7000ms infinite;
+  }
+  
+  .content-box-bottom-bigbox{
+    width: 95%;
+    height: 335px;
+    margin: 0 auto;
+    background-color:#f7fafc;
+    border-color:#cbd5e0;
+    border-radius:8px;
+    border-style:dashed;
+    border-width:1px;
+    color:#1a202c;
+    font-size:12px;
+    line-height:14px;
+    padding-bottom: 10px;
+  }
+  .content-bottom-bigbox-box{
+    width: 95%;
+    height: auto;
+    margin: 13px auto 0 auto;
+  }
+  .content-bottom-bigbox-title{
+    color:#1a202c;
+    font-size:14px;
+    font-weight:600;
+    line-height:16px;
+  }
+  .content-bottom-bigbox-infobank{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .content-bottom-bigbox-infobank-left{
+    color:#1a202c;
+    font-size:14px;
+    line-height:16px;
+  }
+  .content-bottom-bigbox-infobank-right{
+    color:#1a202c;
+    font-size:14px;
+    font-weight:600;
+    line-height:17px;
+  }
+  
+  .buttons_added {
+      opacity:1;
+      display:inline-block;
+      display:-ms-inline-flexbox;
+      display:inline-flex;
+      white-space:nowrap;
+      vertical-align:top;
+  }
+  .is-form {
+      overflow:hidden;
+      position:relative;
+      background-color:#f9f9f9;
+      height:2.2rem;
+      width:1.9rem;
+      padding:0;
+      text-shadow:1px 1px 1px #fff;
+      border:1px solid #ddd;
+  }
+  .is-form:focus,.input-text:focus {
+      outline:none;
+  }
+  .is-form.minus {
+      border-radius:4px 0 0 4px;
+  }
+  .is-form.plus {
+      border-radius:0 4px 4px 0;
+  }
+  .input-qty {
+      background-color:#fff;
+      height:2.2rem;
+      text-align:center;
+      font-size:1rem;
+      display:inline-block;
+      vertical-align:top;
+      margin:0;
+      border-top:1px solid #ddd;
+      border-bottom:1px solid #ddd;
+      border-left:0;
+      border-right:0;
+      padding:0;
+  }
+  .input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+      -webkit-appearance:none;
+      margin:0;
+  }
+  
+  .btn-cart {
+    align-items:
+    center;
+    background-color:
+    #ff3366;
+    border-radius:
+    8px;
+    color:
+    #fdfdfd;
+    display:
+    flex;
+    border-color: #ff3366 ;
+    font-weight:
+    600;
+    justify-content:
+    center;
+    padding:
+    8px 8px;
+    text-align:
+    center;
+  }
+  
+  .btn-cart:hover {
+    /* transition: ease-in 0.5s; */
+    box-shadow: 0 0 20px #ff3366;
+  }
+  
+  
+  
+  .Danhgia {
+    width: 100%;
+  }
+  .Danhgiabox {
+    width: 1188px;
+    margin: auto;
+  }
+  .DanhgiaBox-Title_Text {
+  }
+  .Danhgia-Title {
+    padding-top: 16px;
+    color: #1a202c;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+  }
+  .Danhgia-Text {
+    margin-top: 10px;
+    color: #48bb78;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .Danhgiabox-Max {
+    margin-top: 10px;
+    height: 275px;
+    border-radius: 8px;
+    background-color: #f7fafc;
+  }
+  .Danhgiabox-Max-Top {
+  }
+  .Danhgiabox-Max-Top-ul {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Danhgiabox-Max-Top-li {
+    list-style-type: none;
+  }
+  .Danhgiabox-Max-Top-li-box {
+    display: flex;
+  }
+  .Danhgiabox-Max-Top-li-textone {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .Danhgiabox-Max-Top-li-texttwo {
+    color: #718096;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .Danhgiabox-Max-Bottom-Box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Danhgiabox-Max-Bottom-Box-OneBox {
+    margin-top: 18px;
+    margin-left: 66px;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    border: 10px solid #00b6f3;
+  }
+  .Danhgiabox-Max-Bottom-Box-OneBox-Title {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    color: #00b6f3;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 62px;
+  }
+  .Danhgiabox-Max-Bottom-Box-OneBox-Text {
+    display: flex;
+    justify-content: center;
+    color: #1a202c;
+    line-height: 19px;
+  }
+  .Danhgiabox-Max-Bottom-Box-TwoBox {
+    margin-left: -60px;
+    margin-top: 20px;
+    width: 446px;
+    height: 154px;
+    border-right: 1px solid #cbd5e0;
+    padding-right: 70px;
+  }
+  .Danhgiabox-Max-Bottom-Box-TwoBox-Box {
+    display: flex;
+    margin-top: 14px;
+  }
+  .Danhgiabox-Max-Bottom-Box-TwoBox-Box-one {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    min-width: 80px;
+  }
+  .Danhgiabox-Max-Bottom-Box-TwoBox-Box-two {
+    margin-top: 5px;
+    width: 331px;
+    height: 6px;
+    background-color: #718096;
+    border-radius: 100px;
+    color: #1a202c;
+  }
+  .Danhgiabox-Max-Bottom-Box-TwoBox-Box-two-blue {
+    margin-top: 5px;
+    width: 331px;
+    height: 6px;
+    background-color: #00b6f3;
+    border-radius: 100px;
+    color: #1a202c;
+  }
+  .Danhgiabox-Max-Bottom-Box-TwoBox-Box-three {
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 10px;
+  }
+  .Danhgiabox-Max-Bottom-Box-ThreeBox {
+    margin-top: 13px;
+    padding-right: 60px;
+  }
+  .Danhgiabox-Max-Bottom-Box-ThreeBox-Box {
+    margin-top: 14px;
+  }
+  
+  .imgusers-box {
+    height: 109px;
+    /* background-color: #007FF3; */
+  }
+  .imgusers-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .imgusers-box-left {
+    display: flex;
+  }
+  .imgusers-box-left-text {
+    color: #1a202c;
+    font-weight: 600;
+    line-height: 19px;
+    margin: auto;
+    /* padding:16px 16px 0px 0px;
+      box-sizing: border-box; */
+  }
+  .imgusers-box-left-img {
+    display: flex;
+  }
+  .imgusers-box-left-img-item {
+    margin: auto auto auto 10px;
+  }
+  .imgusers-box-right {
+  }
+  .imgusers-box-right-box {
+  }
+  .imgusers-box-right-box-ul {
+    display: flex;
+  }
+  .imgusers-box-right-box-li {
+    margin-top: 25px;
+    margin-left: 12px;
+    list-style-type: none;
+    background-color: #00b6f3;
+    border-color: #a0aec0;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 6px 12px;
+  }
+  
+  
+  .userswrite {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    border-bottom: 1px solid #cbd5e0;
+    padding-bottom: 20px;
+  }
+  
+  .userswrite-boxone {
+    width: 297px;
+    /* background-color: red; */
+    display: flex;
+  }
+  .userswrite-boxone-imgusers {
+  }
+  .userswrite-boxone-imgusers-element {
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    background-color: #e5f8fe;
+    border-radius: 50%;
+    color: #00b6f3;
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 28px;
+  }
+  .userswrite-boxone-infousers {
+  }
+  .userswrite-boxone-infousers-box {
+    margin-left: 10px;
+  }
+  .userswrite-boxone-infousers-title {
+    color: #1a202c;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .userswrite-boxone-infousers-item {
+    margin-top: 7px;
+    color: #4a5568;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .userswrite-boxone-infousers-item-text {
+    margin-left: 5px;
+  }
+  
+  .userswrite-boxtwo {
+    width: 736px;
+  }
+  .userswrite-boxtwo-title {
+    color: #1a202c;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .userswrite-boxtwo-content {
+    margin-top: 10px;
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .userswrite-boxtwo-like {
+    padding-top: 10px;
+    color: #4a5568;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .userswrite-boxthree {
+    width: 146px;
+  }
+  .userswrite-boxthree-content {
+    width: 88px;
+    height: 62px;
+    background-color: #f2fbfe;
+    border-radius: 8px;
+    margin-top: 1px;
+    margin-left: 57px;
+  }
+  .userswrite-boxthree-content-number {
+    padding-top: 8px;
+    color: #00b6f3;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  .userswrite-boxthree-content-text {
+    text-align: center;
+    color: #1a202c;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .seemore {
+    border-bottom: 4px solid #edf2f7;
+    padding-bottom: 20px;
+  }
+  .seemore-btn {
+    margin: 10px auto 10px auto;
+    width: 170px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #00b6f3;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    color: #00b6f3;
+    font-size: 14px;
+    line-height: 17px;
+  }
